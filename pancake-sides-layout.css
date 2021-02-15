@@ -1,0 +1,49 @@
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template: auto 1fr auto / auto 1fr auto;
+}
+
+header, footer {
+  background: navy;
+  color: white;
+  padding: 1rem;
+  grid-column: 1 / 4;
+}
+
+.left-sidebar, .right-sidebar {
+  background: aliceblue;
+  padding: 2rem;
+}
+
+.left-sidebar {
+  grid-column: 1 / 2;
+}
+
+.right-sidebar {
+  grid-column: 3 / 4;
+}
+
+main {
+  grid-column: 2 / 3;
+}
+
+footer {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  flex: 1 1 200px;
+}
+
+.icon-box {
+  font-size: 2.5rem;
+  text-align: center;
+  background: coral;
+}

@@ -11,8 +11,35 @@ header, footer {
 }
 
 footer {
-  /* padding: 1.5rem; */
   text-align: center;
-  /* color: white;
-  background: navy; */
+}
+
+.c-span-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  height: 100px;
+}
+
+.span-grid-text {
+  display: grid;
+  place-items: center;
+}
+
+.span-gold {
+  grid-column: 6 / 8;
+  background: gold;
+}
+
+.span-silver {
+  grid-column: 4 / 6;
+  background: silver;
+}
+
+.span-bronze {
+  grid-column: 8 / span 2;
+  background: #cd7f32;
+}
+
+.icon-box {
+  font-size: 3rem;
 }
