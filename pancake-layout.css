@@ -1,0 +1,18 @@
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+header, footer {
+  padding: 1.5rem;
+  color: white;
+  background: navy;
+}
+
+footer {
+  /* padding: 1.5rem; */
+  text-align: center;
+  /* color: white;
+  background: navy; */
+}
